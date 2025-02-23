@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run the check-debug script
+if npm run check-debug; then
+  echo "Error: Debugging code detected in files:"
+  npm run check-debug
+  exit 1
+fi

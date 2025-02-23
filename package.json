@@ -1,0 +1,19 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "check-debug": "grep-cli \"console.log\\|debugger\\|console.debug\" --files-with-matches \"**/*.{js,jsx,ts,tsx}\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "grep-cli": "^0.2.1",
+    "husky": "^9.1.7"
+  }
+}

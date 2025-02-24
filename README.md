@@ -1,3 +1,7 @@
+## Hello World
+
+This project consists on a simple "Hello World" script written using Typescript. It also features a number of extra configurations, such as: pre-commits, danger, conventional commits, etc.s
+
 ## Commit Message Guidelines
 
 This repository follows the [Conventional Commits](https://www.conventionalcommits.org/) specification. All commit messages **must** follow this format:
